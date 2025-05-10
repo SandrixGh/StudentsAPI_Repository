@@ -1,0 +1,11 @@
+D:\StudentsAPI\StudentsAPI.Core\bin\Debug\net9.0\StudentsAPI.Core.deps.json
+D:\StudentsAPI\StudentsAPI.Core\bin\Debug\net9.0\StudentsAPI.Core.dll
+D:\StudentsAPI\StudentsAPI.Core\bin\Debug\net9.0\StudentsAPI.Core.pdb
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.AssemblyInfoInputs.cache
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.AssemblyInfo.cs
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.csproj.CoreCompileInputs.cache
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.dll
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\refint\StudentsAPI.Core.dll
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.pdb
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\ref\StudentsAPI.Core.dll

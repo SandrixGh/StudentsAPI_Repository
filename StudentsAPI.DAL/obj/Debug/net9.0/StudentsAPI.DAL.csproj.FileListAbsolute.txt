@@ -1,0 +1,15 @@
+D:\StudentsAPI\StudentsAPI.DAL\bin\Debug\net9.0\StudentsAPI.DAL.deps.json
+D:\StudentsAPI\StudentsAPI.DAL\bin\Debug\net9.0\StudentsAPI.DAL.dll
+D:\StudentsAPI\StudentsAPI.DAL\bin\Debug\net9.0\StudentsAPI.DAL.pdb
+D:\StudentsAPI\StudentsAPI.DAL\bin\Debug\net9.0\StudentsAPI.Core.dll
+D:\StudentsAPI\StudentsAPI.DAL\bin\Debug\net9.0\StudentsAPI.Core.pdb
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.csproj.AssemblyReference.cache
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.AssemblyInfoInputs.cache
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.AssemblyInfo.cs
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.csproj.CoreCompileInputs.cache
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\Students.B9C1F4EC.Up2Date
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.dll
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\refint\StudentsAPI.DAL.dll
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\StudentsAPI.DAL.pdb
+D:\StudentsAPI\StudentsAPI.DAL\obj\Debug\net9.0\ref\StudentsAPI.DAL.dll

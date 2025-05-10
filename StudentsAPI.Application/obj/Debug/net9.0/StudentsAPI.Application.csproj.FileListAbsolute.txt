@@ -1,0 +1,17 @@
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.Application.deps.json
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.Application.dll
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.Application.pdb
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.Core.dll
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.DAL.dll
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.DAL.pdb
+D:\StudentsAPI\StudentsAPI.Application\bin\Debug\net9.0\StudentsAPI.Core.pdb
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.csproj.AssemblyReference.cache
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.AssemblyInfoInputs.cache
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.AssemblyInfo.cs
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.csproj.CoreCompileInputs.cache
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\Students.14B74A36.Up2Date
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.dll
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\refint\StudentsAPI.Application.dll
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\StudentsAPI.Application.pdb
+D:\StudentsAPI\StudentsAPI.Application\obj\Debug\net9.0\ref\StudentsAPI.Application.dll
