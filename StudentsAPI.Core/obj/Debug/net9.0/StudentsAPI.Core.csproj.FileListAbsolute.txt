@@ -9,3 +9,16 @@ D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.dll
 D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\refint\StudentsAPI.Core.dll
 D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.pdb
 D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\ref\StudentsAPI.Core.dll
+D:\StudentsAPI\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.sourcelink.json
+D:\Students\StudentsAPI.Core\bin\Debug\net9.0\StudentsAPI.Core.deps.json
+D:\Students\StudentsAPI.Core\bin\Debug\net9.0\StudentsAPI.Core.dll
+D:\Students\StudentsAPI.Core\bin\Debug\net9.0\StudentsAPI.Core.pdb
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.AssemblyInfoInputs.cache
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.AssemblyInfo.cs
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.csproj.CoreCompileInputs.cache
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.sourcelink.json
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.dll
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\refint\StudentsAPI.Core.dll
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\StudentsAPI.Core.pdb
+D:\Students\StudentsAPI.Core\obj\Debug\net9.0\ref\StudentsAPI.Core.dll

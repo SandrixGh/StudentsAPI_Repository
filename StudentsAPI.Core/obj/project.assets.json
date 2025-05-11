@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\StudentsAPI\\StudentsAPI.Core\\StudentsAPI.Core.csproj",
+      "projectUniqueName": "D:\\Students\\StudentsAPI.Core\\StudentsAPI.Core.csproj",
       "projectName": "StudentsAPI.Core",
-      "projectPath": "D:\\StudentsAPI\\StudentsAPI.Core\\StudentsAPI.Core.csproj",
+      "projectPath": "D:\\Students\\StudentsAPI.Core\\StudentsAPI.Core.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\StudentsAPI\\StudentsAPI.Core\\obj\\",
+      "outputPath": "D:\\Students\\StudentsAPI.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

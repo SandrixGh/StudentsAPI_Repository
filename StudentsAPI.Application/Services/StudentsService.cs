@@ -1,6 +1,6 @@
-﻿using StudentsAPI.Core.Enums;
+﻿using StudentsAPI.Core.Abstractions.StudentAbstractions;
+using StudentsAPI.Core.Enums;
 using StudentsAPI.Core.Models;
-using StudentsAPI.DAL.Repositories;
 
 namespace StudentsAPI.Application.Services
 {
@@ -18,9 +18,9 @@ namespace StudentsAPI.Application.Services
             return await _repository.Get();
         }
 
-        public async Task<Guid> CreateStudent(Student student)
+        public async Task<Guid> AddStudent(Student student)
         {
-            return await _repository.Create(student);
+            return await _repository.Add(student);
         }
 
         public async Task<Guid> UpdateStudent(Guid id, string name, Grade grade)

@@ -17,13 +17,14 @@ namespace StudentsAPI.Core.Models
         public string Name { get; } = string.Empty;
         public Grade Grade { get; }
 
+
         public static (Student Student, string Error) Create(Guid id, string name, Grade grade)
         {
             var error = string.Empty;
 
             if(string.IsNullOrEmpty(name) || name.Length > MAX_NAME_LENGTH)
             {
-                error = $"Title can not be empty or longer then {MAX_NAME_LENGTH} symbols";
+                error = $"Name can not be empty or longer then {MAX_NAME_LENGTH} symbols";
             }
 
             var student = new Student(id, name, grade);

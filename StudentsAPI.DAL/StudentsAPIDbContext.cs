@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentsAPI.DAL.Configurations;
 using StudentsAPI.DAL.Entities;
 
 namespace StudentsAPI.DAL
@@ -7,9 +8,17 @@ namespace StudentsAPI.DAL
     {
         public StudentsAPIDbContext(DbContextOptions<StudentsAPIDbContext> options) : base(options)
         {
-            Database.EnsureCreated();
         }
 
-        public DbSet<StudentEntity> Students {  get; set; } 
+        public DbSet<StudentEntity> Students { get; set; }
+        public DbSet<UniversityEntity> Universities { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new StudentConfiguration());
+            modelBuilder.ApplyConfiguration(new UniversitiesConfiguration());
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

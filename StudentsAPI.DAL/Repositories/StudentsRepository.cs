@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using StudentsAPI.Core.Abstractions.StudentAbstractions;
 using StudentsAPI.Core.Enums;
 using StudentsAPI.Core.Models;
 using StudentsAPI.DAL.Entities;
@@ -27,7 +28,7 @@ namespace StudentsAPI.DAL.Repositories
             return students;
         }
 
-        public async Task<Guid> Create(Student student)
+        public async Task<Guid> Add(Student student)
         {
             var studentEntity = new StudentEntity()
             {

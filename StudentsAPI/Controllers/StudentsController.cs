@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using StudentsAPI.Application.Services;
-using StudentsAPI.Contracts;
+using StudentsAPI.Contracts.StudentContracts;
+using StudentsAPI.Core.Abstractions.StudentAbstractions;
 using StudentsAPI.Core.Models;
 
 namespace StudentsAPI.Controllers
@@ -28,7 +28,7 @@ namespace StudentsAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> CreateStudent([FromBody] StudentsRequest request)
+        public async Task<ActionResult<Guid>> AddStudent([FromBody] StudentsRequest request)
         {
             var (student, error) = Student.Create(
                 Guid.NewGuid(),
@@ -40,7 +40,7 @@ namespace StudentsAPI.Controllers
                 return BadRequest(error);
             }
 
-            var studentId = await _studentsService.CreateStudent(student);
+            var studentId = await _studentsService.AddStudent(student);
 
             return Ok(studentId);
         }

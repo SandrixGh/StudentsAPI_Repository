@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[StudentsAPI.Contracts.StudentsResponse, StudentsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[StudentsAPI.Contracts.StudentContracts.StudentsResponse, StudentsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -21,7 +21,7 @@
   },
   {
     "ContainingType": "StudentsAPI.Controllers.StudentsController",
-    "Method": "CreateStudent",
+    "Method": "AddStudent",
     "RelativePath": "api/Students",
     "HttpMethod": "POST",
     "IsController": true,
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "StudentsAPI.Contracts.StudentsRequest",
+        "Type": "StudentsAPI.Contracts.StudentContracts.StudentsRequest",
         "IsRequired": true
       }
     ],
@@ -60,7 +60,7 @@
       },
       {
         "Name": "request",
-        "Type": "StudentsAPI.Contracts.StudentsRequest",
+        "Type": "StudentsAPI.Contracts.StudentContracts.StudentsRequest",
         "IsRequired": true
       }
     ],
@@ -70,6 +70,135 @@
     "ContainingType": "StudentsAPI.Controllers.StudentsController",
     "Method": "DeleteStudent",
     "RelativePath": "api/Students/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.UniversitiesController",
+    "Method": "GetAllUniversities",
+    "RelativePath": "api/Universities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[StudentsAPI.Contracts.UniversityContracts.UniversitiesResponse, StudentsAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.UniversitiesController",
+    "Method": "AddUniversity",
+    "RelativePath": "api/Universities",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "StudentsAPI.Contracts.UniversityContracts.UniversitiesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.UniversitiesController",
+    "Method": "GetUniversityById",
+    "RelativePath": "api/Universities/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StudentsAPI.Contracts.UniversityContracts.UniversitiesResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.UniversitiesController",
+    "Method": "UpdateUniversity",
+    "RelativePath": "api/Universities/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "StudentsAPI.Contracts.UniversityContracts.UniversitiesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Guid",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentsAPI.Controllers.UniversitiesController",
+    "Method": "DeleteUniversity",
+    "RelativePath": "api/Universities/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
